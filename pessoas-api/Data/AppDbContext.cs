@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pessoas_api.Models;
+using pessoas_api.Entities;
 
 namespace pessoas_api.Data
 {

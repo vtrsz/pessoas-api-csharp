@@ -3,14 +3,18 @@ using pessoas_api.Entities;
 
 namespace pessoas_api.Data
 {
-    public class AppDbContext : DbContext
+    public partial class AppDbContext : DbContext
     {
+        public AppDbContext()
+        {
+        }
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
-        public DbSet<Address> Addresses { get; set; }
+        public virtual DbSet<Address> Addresses { get; set; }
 
-        public DbSet<Person> People { get; set; }
+        public virtual DbSet<Person> People { get; set; }
     }
 }

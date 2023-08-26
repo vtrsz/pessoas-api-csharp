@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2145A2F8-C7E3-4B66-9A91-00C8810D1B29}"
 	ProjectSection(SolutionItems) = preProject
 		.env = .env
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C996741-B5AC-4A41-BF72-E11F87C74384}"

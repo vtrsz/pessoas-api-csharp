@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace pessoas_api.Entities
 {
@@ -35,6 +36,7 @@ namespace pessoas_api.Entities
         [ForeignKey("Person")]
         public long PersonId { get; set; }
 
+        [JsonIgnore]
         public Person Person { get; set; }
     }
 }
